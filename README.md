@@ -40,15 +40,18 @@ Progress Tracking
 
 | Topic | Problems Solved |
 |-------|------------------|
-| Arrays | 0 |
+| Arrays | 1 |
 | Strings | 0 |
+| Linkedlist | 0 |
+| Stacks | 0 |
+| Queues | 0 | 
 | Hashmap | 1 |
 | Trees | 0 |
 | Graphs | 0 |
 | DP | 0 |
-| Recursion | 0 |
+| Recursion & BackTracking| 0 |
 
-_Total Problems Solved:_  
+_Total Problems Solved: 2_  
 
 ---
 
