@@ -40,7 +40,7 @@ Progress Tracking
 
 | Topic | Problems Solved |
 |-------|------------------|
-| Arrays | 2 |
+| Arrays | 1 |
 | Strings | 0 |
 | Linkedlist | 0 |
 | Stacks | 0 |
