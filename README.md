@@ -40,8 +40,8 @@ Progress Tracking
 
 | Topic | Problems Solved |
 |-------|------------------|
-| Arrays | 1 |
-| Strings | 0 |
+| Arrays | 2 |
+| Strings | 1 |
 | Linkedlist | 0 |
 | Stacks | 0 |
 | Queues | 0 | 
@@ -51,7 +51,7 @@ Progress Tracking
 | DP | 0 |
 | Recursion & BackTracking| 1 |
 
-_Total Problems Solved: 3_  
+_Total Problems Solved: 5_  
 
 ---
 
