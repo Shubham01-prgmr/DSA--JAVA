@@ -63,7 +63,7 @@ _Total Problems Solved: 5_
 ---
 
 ## ⭐ About Me  
-I’m an MCA student learning **Java, DSA & Backend Development**, aiming for top product roles like **Paytm, PhonePe, Razorpay, Swiggy, Groww**, etc.  
+I’m an MCA student learning **Java, DSA & Backend Development**, aiming for top roles in Fintechs like **Paytm, PhonePe, Razorpay, Swiggy, Groww**, etc.  
 This repo documents my entire DSA journey.
 
 ---
