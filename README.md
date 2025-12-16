@@ -49,9 +49,9 @@ Progress Tracking
 | Trees | 0 |
 | Graphs | 0 |
 | DP | 0 |
-| Recursion & BackTracking| 1 |
+| Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 5_  
+_Total Problems Solved: 6_  
 
 ---
 
