@@ -16,7 +16,8 @@ public class sudoku {
         else{
             System.out.println("No solution exist");
         }
-    }public static void printSudoku(int sudoku[][]) {
+    }
+    public static void printSudoku(int sudoku[][]) {
         for(int i = 0; i < 9; i++){
             for(int j = 0; i < 9; j++){
                 System.out.print(sudoku[i][j] + " ");
