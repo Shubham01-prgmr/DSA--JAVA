@@ -1,22 +1,23 @@
 public class majorityElement {
     public static void main(String[] args) {
-        int arr[] = {1,1,1,2,2,2,1};
-        System.out.println(bruteF_MajorityElement(arr));
+        int arr[] = {2,2,1,1,1,2,2};
+        System.out.println(constant_MajorityElement(arr));
     }
-    public static int bruteF_MajorityElement(int arr[]){
-        int n = arr.length;
-        int major = n/2;
-        for (int i = 0; i < n; i++) {
-            int count = 0;
-            for(int j = 0; j < n; j++){
-                if(arr[i] == arr[j]){
-                    count++;
-                }
+    public static int constant_MajorityElement(int arr[]){
+        int candidate = 0;
+        int vote = 0;
+        for(int i : arr){
+            if(vote == 0){
+                candidate = i;
+                vote = 1;
             }
-            if(count > major){
-                return arr[i];
+            else if(i == candidate){
+                vote++;
+            }
+            else{
+                vote--;
             }
         }
-        return -1;
+        return candidate;
     }
 }
