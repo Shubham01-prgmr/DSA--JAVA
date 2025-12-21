@@ -1,24 +1,4 @@
-
-public class KadaneOptimised {
-    // public static void main(String[] args) {
-    //     int nums[] = {-4, 3, -1, 5};
-    //     System.out.println("Maximum subarray sum is: " + maxSubarray(nums));
-    // }
-    // public static int maxSubarray(int nums[]){
-    //     if (nums == null || nums.length == 0) {
-    //         throw new IllegalArgumentException("Array must not be empty");
-    //     }
-
-    //     int currSum = nums[0];
-    //     int maxSum = nums[0];
-
-    //     for (int i = 1; i < nums.length; i++) {
-    //         currSum = Math.max(nums[i], currSum + nums[i]);
-    //         maxSum = Math.max(maxSum, currSum);
-    //     }
-
-    //     return maxSum;
-    // }
+public class KadaneIndex {
     public static void main(String args[]){
         int arr[] = {2, -3, 4, -2, 10, -1, -5};
         bestSubarraySumIndex(arr);
