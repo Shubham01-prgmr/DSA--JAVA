@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class MoveZeroes {
     public static void main(String[] args) {
         int arr[] = {0, 1, 0, 3, 12};
@@ -19,6 +17,10 @@ public class MoveZeroes {
             arr[slow] = 0;
             slow++;
         }
-        System.out.println(Arrays.toString(arr));
+        // System.out.println(Arrays.toString(arr));
+        for (int x = 0; x < arr.length; x++) {
+            System.out.print(arr[x] + " ");
+
+        }
     }
 }
