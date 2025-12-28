@@ -28,7 +28,7 @@ Strings
 
 Hashmap  
 
-Trees  
+Trees
 
 Graphs  
 
