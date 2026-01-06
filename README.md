@@ -7,7 +7,6 @@ I am consistently improving my problem-solving skills, focusing on clean code, o
 
 ## 📂 Folder Structure
 
-
 ---
 
 ## 🚀 Problem-Solving Goals
