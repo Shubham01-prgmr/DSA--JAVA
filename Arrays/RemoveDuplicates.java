@@ -4,18 +4,22 @@ public class RemoveDuplicates{
         int nums[] = {1,1,2,2,3};
         System.out.println(removeDuplicates(nums));
     }
-    public static int removeDuplicates(int [] nums){
-        if(nums.length == 0 || nums == null){
-            throw new IllegalArgumentException("error");
-        }
-        int slow = 1;
-        for(int fast = 1; fast < nums.length; fast++){
-            if(nums[fast] != nums[slow-1]){
+    public static String removeDuplicates(int [] nums){
+        // if(nums.length == 0 || nums == null){
+        //     throw new IllegalArgumentException("error");
+        // }
+        int slow = 0;
+        for(int fast = 0; fast < nums.length; fast++){
+            if(nums[fast] != 0){
                 nums[slow] = nums[fast];
                 slow++;
             }
         }
-        System.out.println(Arrays.toString(Arrays.copyOf(nums, slow)));
-        return slow;
+        while(slow <= nums.length){
+            nums[slow] = 0;
+            slow++;
+        }
+        return Arrays.toString(nums);
+        //return slow;
     }
 }
