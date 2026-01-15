@@ -39,7 +39,7 @@ Progress Tracking
 
 | Topic | Problems Solved |
 |-------|------------------|
-| Arrays | 12 |
+| Arrays | 13 |
 | Strings | 1 |
 | Linkedlist | 0 |
 | Stacks | 0 |
@@ -50,7 +50,7 @@ Progress Tracking
 | DP | 0 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 16_  
+_Total Problems Solved: 17_  
 
 ---
 
