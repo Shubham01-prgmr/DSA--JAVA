@@ -7,12 +7,11 @@ I am consistently improving my problem-solving skills, focusing on clean code, o
 
 ## 📂 Folder Structure
 
-
 ---
 
 ## 🚀 Problem-Solving Goals
 
--  Strengthen Core DSA concepts  
+-  Strengthen Core DSA concepts 
 -  Write clean and readable Java code  
 -  Practice pattern-based problem solving  
 -  Stay consistent (daily/weekly uploads)  
@@ -28,7 +27,7 @@ Strings
 
 Hashmap  
 
-Trees  
+Trees
 
 Graphs  
 
@@ -40,7 +39,7 @@ Progress Tracking
 
 | Topic | Problems Solved |
 |-------|------------------|
-| Arrays | 11 |
+| Arrays | 12 |
 | Strings | 1 |
 | Linkedlist | 0 |
 | Stacks | 0 |
@@ -51,7 +50,7 @@ Progress Tracking
 | DP | 0 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 15_  
+_Total Problems Solved: 16_  
 
 ---
 
