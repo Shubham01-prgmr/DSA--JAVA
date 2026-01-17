@@ -17,7 +17,7 @@ public class RemoveDuplicatesTwo {
             slow++;
         }
         System.out.println(Arrays.toString(Arrays.copyOf(arr, slow)));
-        System.out.println(Arrays.toString(arr));
-        return slow;
+        return newString(arr);
+        // return slow;
     }
 }
