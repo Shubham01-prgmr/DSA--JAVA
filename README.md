@@ -11,7 +11,7 @@ I am consistently improving my problem-solving skills, focusing on clean code, o
 
 ## 🚀 Problem-Solving Goals
 
--  Strengthen Core DSA concepts 
+-  Strengthen Core DSA concepts
 -  Write clean and readable Java code  
 -  Practice pattern-based problem solving  
 -  Stay consistent (daily/weekly uploads)  
@@ -39,7 +39,7 @@ Progress Tracking
 
 | Topic | Problems Solved |
 |-------|------------------|
-| Arrays | 13 |
+| Arrays | 14 |
 | Strings | 1 |
 | Linkedlist | 0 |
 | Stacks | 0 |
@@ -50,7 +50,7 @@ Progress Tracking
 | DP | 0 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 17_  
+_Total Problems Solved: 18_  
 
 ---
 
