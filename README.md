@@ -43,14 +43,14 @@ Progress Tracking
 | Strings | 1 |
 | Linkedlist | 1 |
 | Stacks | 0 |
-| Queues | 0 | 
+| Queues | 1 | 
 | Hashmap | 1 |
 | Trees | 0 |
 | Graphs | 0 |
 | DP | 0 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 19_  
+_Total Problems Solved: 20_  
 
 ---
 
