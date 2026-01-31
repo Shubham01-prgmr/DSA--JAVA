@@ -41,7 +41,7 @@ Progress Tracking
 |-------|------------------|
 | Arrays | 14 |
 | Strings | 1 |
-| Linkedlist | 0 |
+| Linkedlist | 1 |
 | Stacks | 0 |
 | Queues | 0 | 
 | Hashmap | 1 |
@@ -50,7 +50,7 @@ Progress Tracking
 | DP | 0 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 18_  
+_Total Problems Solved: 19_  
 
 ---
 
