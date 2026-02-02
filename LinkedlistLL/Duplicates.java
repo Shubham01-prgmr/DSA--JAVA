@@ -1,4 +1,4 @@
-public class ReverseLL {
+public class Duplicates {
     static class Node {
         int data;
         Node next;
@@ -52,28 +52,30 @@ public class ReverseLL {
         }
         System.out.println("null");
     }
-    public Node findMid(Node head){
-        Node slow = head;
-        Node fast = head;
-
-        while(fast != null && fast.next != null){
-            slow = slow.next;
-            fast = fast.next.next;
+    public void duplicatesInLL(Node head){
+        Node curr = head;
+        
+        while(curr != null && curr.next !=  null){
+            
+            if(curr.data == curr.next.data){
+                curr.next = curr.next.next;
+            }
+            else{
+                curr = curr.next;
+            }
         }
-        return slow;
     }
-    
-    public static void main(String[] args) {
-        ReverseLL ll = new ReverseLL();
-        head = new Node(1);
-        head.next = new Node(2);
-        head.next.next = new Node(3);
-        head.next.next.next = head;
+    public static void main(String[] args){
+        Duplicates ll = new Duplicates();
+        ll.addFirst(1);
+        ll.addLast(2);
+        ll.addLast(2);
+        ll.addLast(3);
+        ll.addLast(3);
+        ll.addLast(4);
 
-        ll.print();     
-        ll.reverse();
         ll.print();
-        Node mid = ll.findMid(head); 
-        System.out.println("Mid element is : " + mid.data);  
+        ll.duplicatesInLL(head);
+        ll.print();
     }
 }
