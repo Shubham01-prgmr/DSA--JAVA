@@ -15,7 +15,7 @@ I am consistently improving my problem-solving skills, focusing on clean code, o
 -  Write clean and readable Java code  
 -  Practice pattern-based problem solving  
 -  Stay consistent (daily/weekly uploads)  
--  Prepare for SDE roles at product companies (Paytm, PhonePe, Razorpay, etc.
+-  Prepare for SDE roles at product companies 
 
 ---
 
