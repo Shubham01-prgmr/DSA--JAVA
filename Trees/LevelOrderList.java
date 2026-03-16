@@ -1,67 +1,57 @@
-import java.util.*;
+
 public class LevelOrderList {
-    static class Node {
-        int data;
-        Node left;
-        Node right;
+    static int minDistance(int dist[], boolean visited[]) {
+        int min = Integer.MAX_VALUE;
+        int index = -1;
 
-        Node(int data) {
-            this.data = data;
-            this.left = null;
-            this.right = null;
+        for (int i = 0; i < dist.length; i++) {
+            if (!visited[i] && dist[i] < min) {
+                min = dist[i];
+                index = i;
+            }
         }
+        return index;
     }
-    
-    static class BinaryTreeB{
-        static int idx = -1;
-        public static Node buildTree(int nodes[]){
-            idx++;
-            if(nodes[idx] == -1){
-                return null;
-            }
-            Node newNode = new Node(nodes[idx]);
-            newNode.left = buildTree(nodes);
-            newNode.right = buildTree(nodes);
-            
-            return newNode;
-        }
-        public static List<List<Integer>> levelOrder(Node root){
-            List<List<Integer>> ans = new ArrayList<>();
-            if(root == null){
-                return ans;
-            }
-            Queue<Node> q = new LinkedList<>();
-            q.add(root);
 
-            while(!q.isEmpty()){
-                int size = q.size();
-                List<Integer> level = new ArrayList<>();
+    public static void main(String args[]) {
 
-                for(int i = 0; i < size; i++){
-                    Node curr = q.remove();
-                    level.add(curr.data);
+        char vertices[] = {'A','B','C','D'};
 
-                    if(curr.left != null){
-                        q.add(curr.left);
-                    }
-                    if(curr.right != null){
-                        q.add(curr.right);
-                    }
+        int graph[][] = {
+            {0,4,2,0},
+            {4,0,5,10},
+            {2,5,0,3},
+            {0,10,3,0}
+        };
+
+        int V = 4;
+
+        int dist[] = new int[V];
+        boolean visited[] = new boolean[V];
+
+        for(int i=0;i<V;i++)
+            dist[i] = Integer.MAX_VALUE;
+
+        dist[0] = 0;  
+        for(int count=0; count<V-1; count++) {
+
+            int u = minDistance(dist, visited);
+            visited[u] = true;
+
+            for(int v=0; v<V; v++) {
+
+                if(!visited[v] && graph[u][v] != 0 &&
+                   dist[u] + graph[u][v] < dist[v]) {
+
+                    dist[v] = dist[u] + graph[u][v];
                 }
-                ans.add(level);
             }
-            return ans;
         }
+
+        System.out.println("Vertex  Distance from Source");
+
+        for(int i=0;i<V;i++)
+            System.out.println(vertices[i] + "      " + dist[i]);
     }
 
-    public static void main(String[] args) {
-        int nodes[] = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};
-        BinaryTreeB tree = new BinaryTreeB();
-        Node root = tree.buildTree(nodes);
-        List<List<Integer>> result = tree.levelOrder(root);
-
-        for(List<Integer> level : result){
-            System.out.println(level);
-        }
-    }
 }
