@@ -45,12 +45,12 @@ Progress Tracking
 | Stacks | 1 |
 | Queues | 1 | 
 | Hashmap | 1 |
-| Trees |  2|
+| Trees | 3 |
 | Graphs | 0 |
 | DP | 0 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 24_  
+_Total Problems Solved: 25_  
 
 ---
 
