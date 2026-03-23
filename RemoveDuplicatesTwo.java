@@ -12,12 +12,11 @@ public class RemoveDuplicatesTwo {
                 slow++;
             }
         }
-        while(slow <= arr.length){
+        while(slow < arr.length){
             arr[slow] = 0;
             slow++;
         }
         System.out.println(Arrays.toString(Arrays.copyOf(arr, slow)));
-        return newString(arr);
-        // return slow;
+        return slow;
     }
 }

@@ -1,3 +1,4 @@
+
 public class CycleDetection {
     static class Node {
         int data;
