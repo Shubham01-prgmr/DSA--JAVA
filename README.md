@@ -48,9 +48,10 @@ Progress Tracking
 | Trees | 3 |
 | Graphs | 0 |
 | DP | 0 |
+| Heaps/Priority queue | 1 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 25_  
+_Total Problems Solved: 26_  
 
 ---
 
