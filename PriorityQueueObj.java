@@ -1,4 +1,3 @@
-
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -11,7 +10,6 @@ public class PriorityQueueObj {
             this.rank = rank;
             this.name = name;
         }
-
         @Override
         public int compareTo(PQueue p2){
             return this.rank - p2.rank;
