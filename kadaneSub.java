@@ -36,4 +36,6 @@ public class kadaneSub {
         
         System.out.println("max sum is : " + max_sum);
     }
+    
 }
+
