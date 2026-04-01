@@ -33,6 +33,8 @@ Graphs
 
 Dynamic Programming
 
+Heaps/Priority queue
+
 Recursion & Backtracking
 
 Progress Tracking
@@ -48,10 +50,10 @@ Progress Tracking
 | Trees | 3 |
 | Graphs | 0 |
 | DP | 0 |
-| Heaps/Priority queue | 1 |
+| Heaps/Priority queue | 2 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 26_  
+_Total Problems Solved: 27_  
 
 ---
 
