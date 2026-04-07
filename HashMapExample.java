@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Set;
+
 public class HashMapExample {
     public static void main(String[] args) {
         HashMap<String, Integer> map = new HashMap<>();
@@ -7,6 +8,7 @@ public class HashMapExample {
         map.put("china", 180);
         map.put("nepal", 10);
         map.put("usa", 80);
+        
         System.out.println(map);
 
         System.out.println(map.remove("usa"));
