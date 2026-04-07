@@ -1,4 +1,4 @@
-# 📘 DSA in Java  
+# 📘 DSA in Java 
 
 This repository contains all my **Data Structures & Algorithms** practice problems solved using **Java**.  
 I am consistently improving my problem-solving skills, focusing on clean code, optimal approaches, and pattern-based learning.
@@ -46,14 +46,14 @@ Progress Tracking
 | Linkedlist | 2 |
 | Stacks | 1 |
 | Queues | 1 | 
-| Hashmap | 1 |
+| Hashmap | 2 |
 | Trees | 3 |
 | Graphs | 0 |
 | DP | 0 |
 | Heaps/Priority queue | 2 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 27_  
+_Total Problems Solved: 28_  
 
 ---
 
