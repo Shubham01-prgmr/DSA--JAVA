@@ -1,14 +1,47 @@
 
-import java.util.HashSet;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CountDistinct {
-    public static void main(String[] args) {
-        int arr[] = {1,2,2,3,4,1};
+    static void subsetSum(int[] arr, int target, int index,
+                          List<Integer> current,
+                          List<List<Integer>> result) {
 
-        HashSet<Integer> set = new HashSet<>();
-        for(int i = 0; i < arr.length; i++){
-            set.add(arr[i]);
+        if (target == 0) {
+            result.add(new ArrayList<>(current)); 
+            return;
         }
-        System.out.println(set);
+        if (index == arr.length || target < 0) {
+            return;
+        }
+
+        current.add(arr[index]);
+        subsetSum(arr, target - arr[index], index + 1, current, result);
+
+        current.remove(current.size() - 1);
+
+        subsetSum(arr, target, index + 1, current, result);
+    }
+
+    public static void main(String[] args) { 
+
+        int[] S = {1, 2, 5, 6, 8};
+        int target = 9;
+
+        ArrayList<List<Integer>> result = new ArrayList<>();
+
+        // Function call
+        subsetSum(S, target, 0, new ArrayList<>(), result);
+
+        // Output
+        if (!result.isEmpty()) {
+            System.out.println("Subsets whose sum is " + target + " :");
+            for (List<Integer> subset : result) {
+                System.out.println(subset);
+            }
+        } 
+        else {
+            System.out.println("No solution exists");
+        }
     }
 }
