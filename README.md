@@ -1,4 +1,4 @@
-# 📘 DSA in Java 
+# 📘 DSA in Java
 
 This repository contains all my **Data Structures & Algorithms** practice problems solved using **Java**.  
 I am consistently improving my problem-solving skills, focusing on clean code, optimal approaches, and pattern-based learning.
