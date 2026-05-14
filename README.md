@@ -48,12 +48,12 @@ Progress Tracking
 | Queues | 1 | 
 | Hashmap | 4 |
 | Trees | 3 |
-| Graphs | 0 |
+| Graphs | 1 |
 | DP | 0 |
 | Heaps/Priority queue | 2 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 30_  
+_Total Problems Solved: 31_  
 
 ---
 
