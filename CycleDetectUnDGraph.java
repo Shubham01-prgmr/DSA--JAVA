@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class CycleDetectGraph {
+public class CycleDetectUnDGraph {
     static class Edge{
         int src;
         int dest;
