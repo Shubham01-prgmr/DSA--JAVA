@@ -32,7 +32,7 @@ public class CycleDetectDGraph {
             Edge e = graph[curr].get(i);
             
             if(stack[e.dest]){
-                return true;
+                return true; 
             }
             else if(!vis[e.dest]){
                 if(detectCycleUtil(graph, vis, stack, e.dest)){
