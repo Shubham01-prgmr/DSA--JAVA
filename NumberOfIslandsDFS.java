@@ -1,4 +1,4 @@
-public class NumberOfIslands {
+public class NumberOfIslandsDFS {
     public static int numIslands(char[][] grid) {
 
         boolean vis[][] = new boolean[grid.length][grid[0].length];
