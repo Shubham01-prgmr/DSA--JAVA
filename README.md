@@ -48,7 +48,7 @@ Progress Tracking
 | Queues | 1 | 
 | Hashmap | 4 |
 | Trees | 3 |
-| Graphs | 7 |
+| Graphs | 8 |
 | DP | 0 |
 | Heaps/Priority queue | 2 |
 | Recursion & BackTracking| 2 |
