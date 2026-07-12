@@ -23,8 +23,8 @@ public class ZeroOneMatrix {
             }
         }
         while(!q.isEmpty()){
-            int size = q.size();
-            for(int i = 0; i < size; i++){
+            // int size = q.size();
+            // for(int i = 0; i < size; i++){
                 Pair curr = q.poll();
                 int row = curr.row;
                 int col = curr.col;
@@ -53,7 +53,7 @@ public class ZeroOneMatrix {
                     q.offer(new Pair(row, col+1));
                 }
             }
-        }
+        // }
         return dist;
     }
     public static void main(String[] args) {
@@ -65,7 +65,7 @@ public class ZeroOneMatrix {
         };
 
         int[][] ans = updateMatrix(grid);
-j
+
         System.out.println("Distance Matrix:");
 
         for (int i = 0; i < ans.length; i++) {
