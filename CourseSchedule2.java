@@ -18,7 +18,8 @@ public class CourseSchedule2{
             int prereq = p[1];
             graph[prereq].add(course);
         }
-        System.out.println(courseScheduleII(graph, prerequisites, numCourses));
+        int ans[] = courseScheduleII(graph, prerequisites, numCourses); 
+        System.out.print(Arrays.toString(ans));
     }
     public static int[] courseScheduleII(ArrayList<Integer> graph[], int prerequisites[][],
         int numCourses){
