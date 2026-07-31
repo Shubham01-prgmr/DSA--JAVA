@@ -10,10 +10,9 @@ public class PathWithMinEffort{
         for (int[] row : effort) {
             Arrays.fill(row, Integer.MAX_VALUE);
         }
-
+        
         effort[0][0] = 0;
 
-        // {effort, row, col}
         PriorityQueue<int[]> pq = new PriorityQueue<>(
                 (a, b) -> a[0] - b[0]
         );
@@ -31,17 +30,13 @@ public class PathWithMinEffort{
             int r = curr[1];
             int c = curr[2];
 
-            // Ignore stale entry
             if (currEffort > effort[r][c]) {
                 continue;
             }
 
-            // Destination reached
             if (r == rows - 1 && c == cols - 1) {
                 return currEffort;
             }
-
-            // Visit all 4 neighbours
             for (int i = 0; i < 4; i++) {
 
                 int nr = r + dr[i];
