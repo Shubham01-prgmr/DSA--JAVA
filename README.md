@@ -23,7 +23,7 @@ Topics Covered
 
 Arrays  
 
-Strings  
+Strings 
 
 Hashmap  
 
