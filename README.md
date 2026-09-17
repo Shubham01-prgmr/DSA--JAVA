@@ -12,7 +12,7 @@ I am consistently improving my problem-solving skills, focusing on clean code, o
 ## 🚀 Problem-Solving Goals
 
 -  Strengthen Core DSA concepts
--  Write clean and readable Java code  
+-  Write clean and readable Java code
 -  Practice pattern-based problem solving  
 -  Stay consistent (daily/weekly uploads)  
 -  Prepare for SDE roles at product companies
@@ -23,7 +23,7 @@ Topics Covered
 
 Arrays  
 
-Strings  
+Strings
 
 Hashmap  
 
@@ -48,12 +48,12 @@ Progress Tracking
 | Queues | 1 | 
 | Hashmap | 4 |
 | Trees | 3 |
-| Graphs | 17 |
+| Graphs | 19 |
 | DP | 0 |
 | Heaps/Priority queue | 2 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 47_  
+_Total Problems Solved: 49_  
 
 ---
 
