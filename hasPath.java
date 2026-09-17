@@ -16,12 +16,12 @@ public class hasPath {
         boolean vis[] = new boolean[graph.length];
         for(int i  = 0; i < graph.length; i++){
             if(!vis[i]){
-                if(hasPath(graph, vis, 0, 2)){
-                    return true;
+                if(!hasPath(graph, vis, 0, 2)){
+                    return false;
                 }
             }
         }
-        return false;
+        return true;
     } 
     public static boolean hasPath(ArrayList<Edge> graph[], boolean vis[], int src, int dest){
         if(src == dest){

@@ -17,6 +17,6 @@ public class Main {
         list.add(67);
         list.add(768);
         list.forEach(System.out::println);
-        System.out.println(list);
+        // System.out.println(list);
     }
 }
