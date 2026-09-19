@@ -9,6 +9,7 @@ I am consistently improving my problem-solving skills, focusing on clean code, o
 
 ---
 
+
 ## 🚀 Problem-Solving Goals
 
 -  Strengthen Core DSA concepts
@@ -47,13 +48,13 @@ Progress Tracking
 | Stacks | 1 |
 | Queues | 1 | 
 | Hashmap | 4 |
-| Trees | 3 |
+| Trees | 5 |
 | Graphs | 19 |
 | DP | 0 |
 | Heaps/Priority queue | 2 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 49_  
+_Total Problems Solved: 51_  
 
 ---
 
