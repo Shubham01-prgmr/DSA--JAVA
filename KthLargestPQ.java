@@ -5,7 +5,7 @@ public class KthLargestPQ {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
 
         for (int val : arr) {
-            pq.add(val);          
+            pq.add(val);
 
             if (pq.size() > k) {  
                 pq.poll();        
