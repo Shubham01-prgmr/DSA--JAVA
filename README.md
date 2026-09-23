@@ -48,13 +48,13 @@ Progress Tracking
 | Stacks | 1 |
 | Queues | 1 | 
 | Hashmap | 4 |
-| Trees | 11 |
+| Trees | 13 |
 | Graphs | 19 |
 | DP | 0 |
-| Heaps/Priority queue | 2 |
+| Heaps/Priority Queue | 2 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 57_  
+_Total Problems Solved: 59_  
 
 ---
 
