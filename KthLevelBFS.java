@@ -11,7 +11,6 @@ public class KthLevelBFS {
             this.val = val;
         }
     }
-
     public static List<Integer> kthLevel(TreeNode root, int level, int k) {
 
         List<Integer> ans = new ArrayList<>();
