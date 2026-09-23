@@ -8,14 +8,14 @@ public class RemoveDuplicates{
         // if(nums.length == 0 || nums == null){
         //     throw new IllegalArgumentException("error");
         // }
-        int slow = 0;
-        for(int fast = 0; fast < nums.length; fast++){
-            if(nums[fast] != 0){
+        int slow = 1;
+        for(int fast = 1; fast < nums.length; fast++){
+            if(nums[fast] != nums[slow-1]){
                 nums[slow] = nums[fast];
                 slow++;
             }
         }
-        while(slow <= nums.length){
+        while(slow < nums.length){
             nums[slow] = 0;
             slow++;
         }
