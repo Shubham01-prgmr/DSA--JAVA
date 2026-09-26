@@ -34,7 +34,7 @@ Graphs
 
 Dynamic Programming
 
-Heaps/Priority queue
+Heaps/Priority Queue
 
 Recursion & Backtracking
 
@@ -42,7 +42,7 @@ Progress Tracking
 
 | Topic | Problems Solved |
 |-------|------------------|
-| Arrays | 15 |
+| Arrays | 16 |
 | Strings | 5 |
 | Linkedlist | 2 |
 | Stacks | 1 |
@@ -54,7 +54,7 @@ Progress Tracking
 | Heaps/Priority Queue | 3 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 65_  
+_Total Problems Solved: 66_  
 
 ---
 
