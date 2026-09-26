@@ -42,8 +42,8 @@ Progress Tracking
 
 | Topic | Problems Solved |
 |-------|------------------|
-| Arrays | 14 |
-| Strings | 4 |
+| Arrays | 15 |
+| Strings | 5 |
 | Linkedlist | 2 |
 | Stacks | 1 |
 | Queues | 1 | 
@@ -54,7 +54,7 @@ Progress Tracking
 | Heaps/Priority Queue | 3 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 63_  
+_Total Problems Solved: 65_  
 
 ---
 
