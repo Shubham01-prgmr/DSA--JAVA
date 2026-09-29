@@ -22,7 +22,7 @@ I am consistently improving my problem-solving skills, focusing on clean code, o
 
 Topics Covered
 
-Arrays  
+Arrays
 
 Strings
 
