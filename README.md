@@ -22,7 +22,7 @@ I am consistently improving my problem-solving skills, focusing on clean code, o
 
 Topics Covered
 
-Arrays  
+Arrays
 
 Strings
 
@@ -47,14 +47,14 @@ Progress Tracking
 | Linkedlist | 2 |
 | Stacks | 1 |
 | Queues | 1 | 
-| Hashmap | 4 |
+| Hashmap | 5 |
 | Trees | 13 |
 | Graphs | 19 |
 | DP | 0 |
 | Heaps/Priority Queue | 3 |
 | Recursion & BackTracking| 2 |
 
-_Total Problems Solved: 67_  
+_Total Problems Solved: 68_  
 
 ---
 
