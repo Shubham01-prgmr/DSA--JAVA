@@ -53,7 +53,6 @@ public class ZeroOneMatrix {
                     q.offer(new Pair(row, col+1));
                 }
             }
-        // }
         return dist;
     }
     public static void main(String[] args) {
