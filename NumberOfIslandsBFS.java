@@ -3,17 +3,19 @@ public class NumberOfIslandsBFS {
     public static int bfs(int[][] grid, int row, int col){
         boolean vis[][] = new boolean[grid.length][grid[0].length];
         int count = 0;
+        int dr[] = {-1, 1, 0, 0};
+        int dc[] = {0, 0, -1, 1};
         for(int r = 0; r < grid.length; r++){
             for(int c = 0; c < grid[0].length; c++){
                 if(grid[r][c] == 1 && !vis[r][c]){
-                    bfsUtil(grid, vis, r, c);
+                    bfsUtil(grid, vis, r, c, dr, dc);
                     count++;
                 }
             }
         }
         return count;
     }
-    public static void bfsUtil(int grid[][], boolean vis[][], int r, int c){
+    public static void bfsUtil(int grid[][], boolean vis[][], int r, int c, int dr[], int dc[]){
         Queue<int[]> q = new LinkedList<>();
         q.add(new int[]{r, c});
         vis[r][c] = true;
@@ -22,22 +24,34 @@ public class NumberOfIslandsBFS {
             int row = curr[0];
             int col = curr[1];
 
-            if(row-1 >= 0 && grid[row-1][col] == 1 && !vis[row-1][col]){
-                vis[row-1][col] = true;
-                q.add(new int[]{row-1, col});
+            for(int i = 0; i < 4; i++){
+                int nr = row + dr[i];
+                int nc = col + dc[i];
+
+                if(nr >= 0 && nr < grid.length && nc >= 0 && 
+                    nc < grid[0].length && grid[nr][nc] == 1){
+                        if(!vis[nr][nc]){
+                            vis[nr][nc] = true;
+                            q.offer(new int[]{nr, nc});
+                        }
+                }
             }
-            if(row+1 < grid.length && grid[row+1][col] == 1 && !vis[row+1][col]){
-                vis[row+1][col] = true;
-                q.add(new int[]{row+1, col});
-            }
-            if(col-1 >= 0 && grid[row][col-1] == 1 && !vis[row][col-1]){
-                vis[row][col-1] = true;
-                q.add(new int[]{row, col-1});
-            }
-            if(col+1 < grid[0].length && grid[row][col+1] == 1 && !vis[row][col+1]){
-                vis[row][col+1] = true;
-                q.add(new int[]{row, col+1});
-            }
+            // if(row-1 >= 0 && grid[row-1][col] == 1 && !vis[row-1][col]){
+            //     vis[row-1][col] = true;
+            //     q.add(new int[]{row-1, col});
+            // }
+            // if(row+1 < grid.length && grid[row+1][col] == 1 && !vis[row+1][col]){
+            //     vis[row+1][col] = true;
+            //     q.add(new int[]{row+1, col});
+            // }
+            // if(col-1 >= 0 && grid[row][col-1] == 1 && !vis[row][col-1]){
+            //     vis[row][col-1] = true;
+            //     q.add(new int[]{row, col-1});
+            // }
+            // if(col+1 < grid[0].length && grid[row][col+1] == 1 && !vis[row][col+1]){
+            //     vis[row][col+1] = true;
+            //     q.add(new int[]{row, col+1});
+            // }
         }
     }
     public static void main(String[] args) {
@@ -46,7 +60,6 @@ public class NumberOfIslandsBFS {
                 {1, 0, 1},
                 {0, 1, 1}
         };
-
         System.out.println(bfs(grid, 0, 0));
     }
 }
