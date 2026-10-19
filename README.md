@@ -50,7 +50,7 @@ Progress Tracking
 | Hashmap | 5 |
 | Trees | 13 |
 | Graphs | 19 |
-| DP | 0 |
+| DP | 2 |
 | Heaps/Priority Queue | 3 |
 | Recursion & BackTracking| 2 |
 | Dynamic Programming | 3 |
