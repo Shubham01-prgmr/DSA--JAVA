@@ -2,7 +2,6 @@ public class HouseRobberII {
 
     public static int rob(int[] nums) {
         int n = nums.length;
-
         if (n == 1) {
             return nums[0];
         }
@@ -26,7 +25,6 @@ public class HouseRobberII {
         }
         return prev1;
     }
-
     public static void main(String[] args) {
         int[] nums = {2, 3, 2};
         System.out.println(rob(nums));
