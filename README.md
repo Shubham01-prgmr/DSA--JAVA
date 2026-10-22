@@ -50,12 +50,12 @@ Progress Tracking
 | Hashmap | 5 |
 | Trees | 13 |
 | Graphs | 19 |
-| DP | 2 |
+| DP | 3 |
 | Heaps/Priority Queue | 3 |
 | Recursion & BackTracking| 2 |
 | Dynamic Programming | 3 |
 
-_Total Problems Solved: 72_  
+_Total Problems Solved: 75_  
 
 ---
 
