@@ -53,9 +53,9 @@ Progress Tracking
 | DP | 3 |
 | Heaps/Priority Queue | 3 |
 | Recursion & BackTracking| 2 |
-| Dynamic Programming | 3 |
+| Dynamic Programming | 4 |
 
-_Total Problems Solved: 75_  
+_Total Problems Solved: 76_  
 
 ---
 
